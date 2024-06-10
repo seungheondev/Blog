@@ -1,0 +1,67 @@
+* {
+  box-sizing: inherit;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+img {
+  width: 21.5rem;
+  height: 160px;
+  border-radius: 4px 4px 0 0;
+}
+
+.dataBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.dataBody {
+  width: 21.5rem;
+  height: 318px;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgb(0 0 0 / 4%) 0 4px 16px 0;
+  border-radius: 4px;
+}
+
+.dataTitle {
+  width: 312px;
+  font-size: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px 15px 5px 15px;
+}
+
+.dataContents {
+  padding: 4px 15px 4px 15px;
+  width: 315px;
+  height: 70px;
+}
+.dataContents p {
+  font-size: 15px;
+  display: -webkit-inline-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.dataWriter {
+  width: 312px;
+  font-size: 12px;
+  color: #A0A5B4;
+  padding: 10px 15px 10px 15px;
+  border-top: 1px solid #E9E8E8;
+}
+.dataWriter span {
+  display: flex;
+  justify-content: space-between;
+}
+.dataWriter b {
+  color: #000;
+}

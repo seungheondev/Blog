@@ -1,0 +1,40 @@
+.pagination { 
+  width: 100%;
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+ul { 
+  padding: 0px;
+}
+
+ul.pagination li {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #444;
+  border-radius: 20px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px; 
+}
+ul.pagination li:hover {
+  color: #fff;
+  background-color: #7DCE13;
+  border: 1px solid #7dce13;
+}
+ul.pagination li.active {
+  background-color: #7DCE13;
+  border: none;
+  color: #fff;
+}
+
+ul.pagination li:hover a,
+ul.pagination li.active a {
+  font-weight: bold;
+  color: #fff;
+}

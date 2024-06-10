@@ -1,0 +1,54 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url("/public/image/loginBg.jpg");
+  background-size: cover;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.loginTitle {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.loginForm > label {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.loginInput {
+  font-size: 16px;
+  width: 300px;
+  height: 20px;
+  padding: 15px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
