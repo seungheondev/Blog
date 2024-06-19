@@ -1,4 +1,4 @@
-# 個人Blog
+# Blog
 初めて作ったREACTプロジェクト
 
 - axios, sessionStorageを利用してログイン機能具現
