@@ -1,5 +1,5 @@
 # Blog
-初めて作ったREACTプロジェクト
+初めて作ったREACTプロジェクト(2023年)
 
 - axios, sessionStorageを利用してログイン機能具現
 - 開発中、CORSエラーが起きてcreateProxyMiddlewareとSpringのCrossOrginアノテーション設定を追加した
